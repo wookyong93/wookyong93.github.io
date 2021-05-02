@@ -6563,7 +6563,7 @@ button.bg-dark:focus {
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 70%;
   border: 0;
 }
 
@@ -7592,7 +7592,7 @@ button.bg-dark:focus {
 
 .mb-3,
 .my-3 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
 .ml-3,
@@ -10113,7 +10113,7 @@ p.lead {
 }
 
 .dev-icons {
-  font-size: 3rem;
+  font-size: 0.5rem;
 }
 
 section.resume-section {
@@ -10143,5 +10143,14 @@ section.resume-section .resume-section-content {
   }
 }
 .li-icon{
-	width: 50px; 
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 2px;
+}
+.p-top-line {
+	font-size:15px;
+	border-top: 1px solid #3d3d3d;
+	padding-top: 3px;
 }
